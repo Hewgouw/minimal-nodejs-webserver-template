@@ -1,24 +1,25 @@
 {
-	"name": "minimal-nodejs-webserver-template",
-	"version": "1.0.0",
-	"description": "A sample Node.js webserver template, as minimal as it gets",
-	"main": "app.js",
-	"scripts": {
-		"start": "node app.js"
-	},
-	"dependencies": {
-		"express": "4.13.3"
-	},
-	"engines": {
-		"node": "5.5.0"
-	},
-	"repository": {
-		"type": "git",
-		"url": ""
-	},
-	"keywords": [
-		"node",
-		"express"
-	],
-	"license": "MIT"
+  "name": "minimal-nodejs-webserver-template",
+  "version": "1.0.0",
+  "description": "A sample Node.js webserver template, as minimal as it gets",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.13.3"
+  },
+  "engines": {
+    "node": "5.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "node",
+    "express"
+  ],
+  "license": "MIT"
 }
