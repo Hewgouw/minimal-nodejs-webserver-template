@@ -10,14 +10,7 @@ app.use(express.static(__dirname + '/public'));
 
 
 var api = require('./api.js');
-
-app.get('/api*', function(req, res) {
-    api.request(req, res);
-});
-
-app.post('/api*', function(req, res) {
-    api.request(req, res);
-});
+app.all('/api*', api.request);
 
 
 app.listen(app.get('port'), function() {
